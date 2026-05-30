@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hoja de Cálculo - Manual de Usuario",
+  title: "Manual de Usuario - Hoja de Cálculo",
   description: "Manual de usuario interactivo para el programa Hoja de Cálculo en Python",
 };
 
