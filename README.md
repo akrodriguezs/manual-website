@@ -38,6 +38,17 @@ python main.py
 ### Desde el ejecutable
 Ejecutar `hoja_calculo.exe` (no requiere Python instalado).
 
+## Cómo Crear el Ejecutable
+
+Si querés generar el `.exe` desde el código fuente:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --name hoja_calculo --distpath dist --workpath build main.py
+```
+
+El ejecutable se crea en `dist/hoja_calculo.exe`. No necesita Python para ejecutarse.
+
 ## Uso
 
 Al iniciar el programa se muestra la hoja de cálculo y un menú con 3 opciones:
