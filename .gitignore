@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# ZIP
+*.zip
+
+# Node.js / Next.js
+manual-usuario/node_modules/
+manual-usuario/.next/
+manual-usuario/out/
+manual-usuario/next-env.d.ts
+
+# Temp
+temp_zip/
+test_zip/
